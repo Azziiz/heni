@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Unbounded'
+    
+}
+
+.hero {
+    height:  100vh;
+    width: 100%;
+    background-image:  linear-gradient(rgba(0,0,0,6), rgba(0,0,0,0.5)), url(https://tse2.mm.bing.net/th?id=OIP.exGwFusccJpfcs86pw6A8QHaEo&pid=Api&P=0);
+    background-size:  cover;
+    background-position:   center;
+}
+
+nav {
+    display: flex;
+    align-items:  center;
+    justify-content:  space-between;
+    padding-top:  30px;
+    padding-left:  10%;
+    padding-right:  10%;
+}
+.logo {
+    color:  #FA5048;
+    font-size:  28px;
+    font-weight:  500;
+    
+}
+
+nav ul li {
+    list-style-type:  none;
+    display:  inline-block;
+    padding:  10px 20px;
+    font-weight:  400
+}
+
+nav ul li a {
+    color:  white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #FA5048;
+    transition:  0.2s
+}
+.Main {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:  10%;
+    padding-right:  10%;
+}
+.Main > input {
+    display:  block;
+    margin-top: 40px;
+    padding: 20px;
+    padding-right: 230px;
+    border-radius: 5px;
+    font-weight: 400;
+    background-color:  black;
+    border:  none;
+    color:  white;
+}
+
+.Main > button {
+    display:  block;
+    margin-top: 40px;
+    margin-left:  150px;
+    padding: 15px;
+    padding-right: 50px;
+    padding-left:  50px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size:  1.4rem;
+    background-color: #FA5048;
+    border:  none;
+    color:  white;
+    
+}
+#Main {
+    position:  absolute;
+    display:  flex;
+    color: #FA5048;
+    top:  18%;
+    left: 55%;
+    padding:  10px;
+    font-weight:  400;
+    font-size:  0.7rem;
+}
+
